@@ -1,0 +1,10 @@
+# 忽略编译生成的可执行文件和中间件
+server
+bin/
+obj/
+*.o
+*.out
+
+# 忽略编辑器配置
+.vscode/
+compile_commands.json
