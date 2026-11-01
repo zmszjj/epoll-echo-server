@@ -5,4 +5,4 @@
 编译方式：make
 
 运行方式：./bin/server
-期间错误：要用epoll_create1 不是 epoll_create 的区别，epoll_ctl 传的fd不要乱搞。
+期间错误：要用epoll_create1 不是 epoll_create ，epoll_ctl 传的fd不要乱搞。
